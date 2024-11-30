@@ -32,9 +32,9 @@ in
     };
     theme = {
       name = "Gruvbox-Green-Dark";
-      package = pkgs.gruvbox-gtk-theme.override {
+      package = pkgs.ayu-theme-gtk.override {
         colorVariants = [ "dark" ];
-        themeVariants = [ "green" ];
+        themeVariants = [ "dark" ];
         tweakVariants = [ "macos" ];
       };
     };

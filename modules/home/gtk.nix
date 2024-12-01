@@ -32,7 +32,7 @@ in
     };
     theme = {
       name = "Ayu-Dark";
-      package = pkgs.ayu-theme-gtk.override
+      package = pkgs.ayu-theme-gtk
     };
     iconTheme = {
       name = "Papirus-Dark";

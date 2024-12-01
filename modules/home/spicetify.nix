@@ -20,7 +20,7 @@ in
       hidePodcasts
       shuffle # shuffle+ (special characters are sanitized out of extension names)
     ];
-    theme = spicePkgs.themes.dribbblish;
-    colorScheme = "gruvbox-material-dark";
+#    theme = spicePkgs.themes.dribbblish;
+#    colorScheme = "gruvbox-material-dark";
   };
 }

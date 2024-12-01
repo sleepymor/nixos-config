@@ -65,10 +65,10 @@ in
     tty-clock                         # cli clock
 
     ## GUI Apps
-    audacity
+#    audacity
     bleachbit                         # cache cleaner
-    gimp
-    libreoffice
+#    gimp
+#    libreoffice
     nix-prefetch-github
     obs-studio
     pavucontrol                       # pulseaudio volume controle (GUI)
@@ -91,6 +91,6 @@ in
     python3
     python312Packages.ipython
 
-    inputs.alejandra.defaultPackage.${system}
+#    inputs.alejandra.defaultPackage.${system}
   ]);
 }

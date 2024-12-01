@@ -31,12 +31,8 @@ in
       size = 12;
     };
     theme = {
-      name = "Gruvbox-Green-Dark";
-      package = pkgs.ayu-theme-gtk.override {
-        colorVariants = [ "dark" ];
-        themeVariants = [ "dark" ];
-        tweakVariants = [ "macos" ];
-      };
+      name = "Ayu-Dark";
+      package = pkgs.ayu-theme-gtk.override
     };
     iconTheme = {
       name = "Papirus-Dark";
